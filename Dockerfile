@@ -3,7 +3,7 @@ FROM python:3.5-alpine
 RUN set -ex \
     && apk add --no-cache --update \
     build-base \
-    ttf-freefont \ 
+    ttf-dejavu \ 
     gcc \
     make \
     libc-dev \
