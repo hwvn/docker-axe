@@ -26,6 +26,7 @@ RUN set -ex \
     git \
     nginx \
     supervisor \
+    nodejs-npm \
   && rm -rf /var/cache/apk/* && \
   chown -R nginx:www-data /var/lib/nginx
 
