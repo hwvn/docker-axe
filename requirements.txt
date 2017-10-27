@@ -35,6 +35,7 @@ django-braces==1.11.0
 django-cacheops==3.2.1
 django-celery-email==2.0.0
 django-clear-cache==0.3
+django-comments-xtd==2.0.8
 django-compat==1.0.14
 django-configurations==2.0
 django-contrib-comments==1.8.0
@@ -47,6 +48,7 @@ django-formtools==2.0
 django-fsm==2.6.0
 django-hijack==2.1.4
 django-hosts==2.0
+django-markdown2==0.3.0
 django-model-utils==3.0.0
 django-notifications-hq==1.3
 -e git+https://github.com/tamhv/django-notifier@77b173e221dda1bb2d5b908f80e02d1291a9030f#egg=django_notifier
@@ -55,11 +57,12 @@ django-ordered-model==1.4.3
 django-phonenumber-field==1.3.0
 django-redis==4.8.0
 django-sendfile==0.3.11
-django-summernote==0.8.8.2
+-e git+https://github.com/gooesoft/django-summernote.git@d75b2058c40530a550c4d6d3a478f865f2d34d5a#egg=django_summernote
 django-taggit==0.22.1
 django-user-sessions==1.5.3
 django-validated-file==2.0.1
 django-vanilla-views==1.0.4
+django-viewflow==1.0.2
 django-webtest==1.9.2
 djangorestframework==3.6.4
 docutils==0.14
@@ -85,6 +88,7 @@ markdown2==2.3.4
 MarkupSafe==1.0
 mccabe==0.6.1
 model-mommy==1.3.2
+mysqlclient==1.3.10
 oic==0.10.0.0
 olefile==0.44
 pdfrw==0.4
