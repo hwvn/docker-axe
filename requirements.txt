@@ -40,23 +40,27 @@ django-compat==1.0.14
 django-configurations==2.0
 django-contrib-comments==1.8.0
 django-debug-toolbar==1.8
+django-djconfig==0.5.3
 django-easy-pdf==0.2.0.dev1
 django-extensions==1.8.1
 django-extra-views==0.9.0
 django-filter==1.0.4
 django-formtools==2.0
 django-fsm==2.6.0
+django-haystack==2.6.1
 django-hijack==2.1.4
 django-hosts==2.0
+django-infinite-scroll-pagination==0.2.0
 django-markdown2==0.3.0
 django-model-utils==3.0.0
 django-notifications-hq==1.3
 -e git+https://github.com/tamhv/django-notifier@77b173e221dda1bb2d5b908f80e02d1291a9030f#egg=django_notifier
--e git+https://github.com/tamhv/django-oidc@3ee2cd40e3226ea97b82f64fc3466d4945b3e179#egg=django_oidc_tf
+-e git+https://github.com/tamhv/django-oidc@53f44ca50b3f83512628dacf9aed804e19dbf606#egg=django_oidc_tf
 django-ordered-model==1.4.3
 django-phonenumber-field==1.3.0
 django-redis==4.8.0
 django-sendfile==0.3.11
+-e git+https://github.com/gooesoft/Spirit@6da214fff1d878ac6ffd529d994a52c5bf3276c0#egg=django_spirit
 -e git+https://github.com/gooesoft/django-summernote.git@d75b2058c40530a550c4d6d3a478f865f2d34d5a#egg=django_summernote
 django-taggit==0.22.1
 django-user-sessions==1.5.3
@@ -87,6 +91,7 @@ Mako==1.0.7
 markdown2==2.3.4
 MarkupSafe==1.0
 mccabe==0.6.1
+mistune==0.7.4
 model-mommy==1.3.2
 oic==0.10.0.0
 olefile==0.44
@@ -94,7 +99,7 @@ pdfrw==0.4
 pexpect==4.2.1
 phonenumberslite==8.7.1
 pickleshare==0.7.4
-Pillow==4.3.0
+Pillow==4.2.1
 pip-tools==1.9.0
 poyo==0.4.1
 prompt-toolkit==1.0.15
@@ -125,6 +130,9 @@ testfixtures==5.1.1
 tinycss2==0.6.1
 tornado==4.5.2
 traitlets==4.3.2
+uni-slugify==0.1.4
+unicode-slugify==0.1.3
+Unidecode==0.4.21
 urllib3==1.22
 vine==1.1.4
 waitress==1.0.2
@@ -135,4 +143,5 @@ WebOb==1.7.3
 WebTest==2.0.28
 whichcraft==0.4.1
 whitenoise==3.3.0
+Whoosh==2.7.4
 xlwt==1.2.0
