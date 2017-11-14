@@ -51,6 +51,7 @@ django-haystack==2.6.1
 django-hijack==2.1.4
 django-hosts==2.0
 django-infinite-scroll-pagination==0.2.0
+django-maintenance-mode==0.6.6
 django-markdown2==0.3.0
 django-model-utils==3.0.0
 django-notifications-hq==1.3
