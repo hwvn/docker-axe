@@ -34,6 +34,7 @@ django-bootstrap3==9.0.0
 django-braces==1.11.0
 django-cacheops==3.2.1
 django-celery-email==2.0.0
+django-celery-results==1.0.1
 django-clear-cache==0.3
 django-compat==1.0.14
 django-configurations==2.0
