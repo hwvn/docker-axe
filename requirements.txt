@@ -64,13 +64,13 @@ django-phonenumber-field==1.3.0
 django-redis==4.8.0
 django-reversion==2.0.12
 django-sendfile==0.3.11
+-e git+https://github.com/gooesoft/django-session-log@37ce3dbbfe461fcca67a52136712a6285c42cdde#egg=django_session_log
 django-simple-history==1.9.0
 django-speedinfo==1.3
 -e git+https://github.com/gooesoft/Spirit@7458f3298f010e1178a8785350d232bb53931c6a#egg=django_spirit
 -e git+https://github.com/gooesoft/django-summernote.git@d75b2058c40530a550c4d6d3a478f865f2d34d5a#egg=django_summernote
 django-tables2==1.14.2
 django-taggit==0.22.1
-django-user-sessions==1.5.3
 django-validated-file==2.0.1
 django-vanilla-views==1.0.4
 django-webtest==1.9.2
