@@ -36,5 +36,5 @@ RUN pip install weasyprint
 COPY ./requirements.txt /requirements.txt
 RUN pip install --no-cache-dir -r /requirements.txt
 
-COPY ./fonts /user/share/fonts
+COPY ./fonts /usr/share/fonts
 RUN fc-cache
