@@ -65,6 +65,7 @@ django-ordered-model==1.4.3
 django-phonenumber-field==1.3.0
 django-redis==4.8.0
 django-reversion==2.0.12
+django-safedelete==0.4.5
 django-sendfile==0.3.11
 -e git+https://github.com/gooesoft/django-session-log@37ce3dbbfe461fcca67a52136712a6285c42cdde#egg=django_session_log
 django-simple-history==1.9.0
