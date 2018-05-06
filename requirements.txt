@@ -10,7 +10,7 @@ billiard==3.5.0.3
 binaryornot==0.4.3
 cairocffi==0.8.0
 CairoSVG==2.1.1
-celery==4.1.0
+celery==4.0.1
 celery-haystack==0.10
 certifi==2017.7.27.1
 cffi==1.10.0
@@ -34,7 +34,6 @@ django-bootstrap-breadcrumbs==0.8.2
 django-bootstrap3==9.0.0
 django-braces==1.11.0
 django-cacheops==3.2.1
-django-celery-beat==1.1.1
 django-celery-email==2.0.0
 -e git+https://github.com/gooesoft/django-celery-results@1ff9090166252a8360c62a1303402753be24eebc#egg=django_celery_results
 django-clear-cache==0.3
@@ -134,7 +133,7 @@ pyOpenSSL==17.2.0
 Pyphen==0.9.4
 python-dateutil==2.6.1
 python-magic==0.4.13
-pytz==2017.2
+pytz==2018.4
 raven==6.1.0
 redis==2.10.5
 requests==2.18.3
