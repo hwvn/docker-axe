@@ -1,4 +1,10 @@
-FROM python:3.5-alpine
+FROM python:3.6-alpine
+
+RUN apk update 
+RUN apk add openssl-dev
+RUN apk add gcc python3-dev musl-dev libffi-dev
+RUN pip install cryptography==2.0.3
+RUN apk del openssl-dev
 
 RUN set -ex \
     && apk add --no-cache --update \
@@ -7,16 +13,14 @@ RUN set -ex \
     gcc \
     make \
     libc-dev \
-    musl-dev \
     linux-headers \
     pcre-dev \
     zlib-dev \
-    libffi-dev \
+    libressl-dev \
     libffi \
     gdk-pixbuf \
     jpeg-dev \
     postgresql-dev \
-    python3-dev \
     cairo-dev \
     pango-dev \
     libmagic \
