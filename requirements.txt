@@ -54,6 +54,7 @@ django-filter==2.1.0
 django-formtools==2.0
 django-fsm==2.6.0
 -e git+https://github.com/gooesoft/django-fsm-log@cc03b6583a5cd0c8080aecbb21470e8e5a17b783#egg=django_fsm_log
+django-graphql-jwt==0.2.1
 django-haystack==2.6.1
 django-hijack==2.1.4
 django-hosts==2.0
@@ -143,6 +144,7 @@ pyfcm==1.4.5
 pyflakes==1.5.0
 Pygments==2.2.0
 pyjwkest==1.4.0
+PyJWT==1.7.1
 pynliner==0.8.0
 pyOpenSSL==17.2.0
 Pyphen==0.9.4
