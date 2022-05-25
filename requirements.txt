@@ -146,7 +146,7 @@ pyfcm==1.4.5
 pyflakes==1.5.0
 Pygments==2.2.0
 pyjwkest==1.4.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pynliner==0.8.0
 pyOpenSSL==17.2.0
 pyparsing==2.4.0
